@@ -19,7 +19,6 @@ It runs **fully locally** (Ollama + Postgres), ships as Docker Compose, and need
 
 %<!-- Add a screen recording of notebooks/demo.ipynb here — it's the best 20-second pitch.
 %![demo](docs/demo.gif)
-%-->
 
 ---
 
@@ -181,10 +180,10 @@ purpose.
 
 ## Roadmap
 
-- [x] **P0–P2** — synthetic data, OCR + extraction, traceable pipeline + report (MVP)
+- [x] **P0–P2** — synthetic data, OCR + extraction, traceable pipeline + report 
 - [x] **P3** — RAG: grounded, cited compliance reasoning
 - [x] **P4** — risk agent · human-in-the-loop · calibrated confidence
-- [x] **P5** — auth/RBAC · async · observability · eval harness + CI gate (**Strong version**)
+- [x] **P5** — auth/RBAC · async · observability · eval harness + CI gate 
 - [ ] **P6** — cross-encoder reranking · fine-tuned/VLM extractor · React front · public demo
 
 ## Data & privacy
@@ -194,12 +193,3 @@ knowledge base is paraphrased policy text. No real identity documents are used o
 required; any public demo should stay on synthetic data only. See the design blueprint
 for the full data-minimisation / retention / audit discussion.
 
-## License
-
-MIT (suggested) — see `LICENSE`.
-
----
-
-<sub>Built by <b>Ahmed Saidi</b> (ENIT · ENSTA Paris). A learning-first project:
-RAG, agents, and evaluation implemented from scratch to understand them, not just to
-use them.</sub>
