@@ -1,0 +1,7 @@
+{
+  "queries": 12,
+  "embed_backend": "hashing",
+  "k": 3,
+  "recall_at_k": 0.7916666666666666,
+  "mrr": 0.7916666666666666
+}

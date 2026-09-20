@@ -1,0 +1,12 @@
+{"question": "Why is an expired passport not acceptable for onboarding?", "relevant": ["doc-validity-001", "doc-validity-002"]}
+{"question": "Do the names have to match across the customer's documents?", "relevant": ["name-consistency-001"]}
+{"question": "What if the date of birth differs between the ID card and the passport?", "relevant": ["dob-consistency-001"]}
+{"question": "How many digits should a national identity card number have?", "relevant": ["id-format-cin-001"]}
+{"question": "What is the expected format of a passport number?", "relevant": ["id-format-passport-001"]}
+{"question": "How recent must a proof of address be?", "relevant": ["poa-recency-001"]}
+{"question": "Which documents are required for a complete KYC file?", "relevant": ["required-docs-001"]}
+{"question": "What happens if a mandatory field is missing or illegible?", "relevant": ["missing-field-001", "required-docs-001"]}
+{"question": "When should low recognition confidence trigger a manual review?", "relevant": ["confidence-review-001"]}
+{"question": "Who makes the final compliance decision?", "relevant": ["hitl-review-001"]}
+{"question": "How should identity document data be stored and retained?", "relevant": ["privacy-minimisation-001"]}
+{"question": "What should happen when documents contain conflicting information?", "relevant": ["conflict-edd-001"]}
