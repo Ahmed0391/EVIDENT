@@ -17,7 +17,7 @@ It runs **fully locally** (Ollama + Postgres), ships as Docker Compose, and need
 
 
 
-%![demo](docs/demo.gif)
+![demo](docs/demo.gif)
 
 ---
 
