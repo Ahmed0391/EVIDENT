@@ -17,7 +17,6 @@ It runs **fully locally** (Ollama + Postgres), ships as Docker Compose, and need
 
 
 
-%<!-- Add a screen recording of notebooks/demo.ipynb here — it's the best 20-second pitch.
 %![demo](docs/demo.gif)
 
 ---
