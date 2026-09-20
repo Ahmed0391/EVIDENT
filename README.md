@@ -1,7 +1,7 @@
 # EVIDENT
 Explainable KYC Document Intelligence
 
-**Every automated compliance decision is traceable to the evidence that produced it** —
+**Every automated compliance decision is traceable to the evidence that produced it**;
 an OCR span, a deterministic rule, a retrieved regulation, or a model probability.
 
 Evident ingests KYC documents (national ID, passport, proof of address), extracts
@@ -13,7 +13,7 @@ confidence each have their own evaluation harness, and a CI job fails the build 
 metric regresses.
 
 It runs **fully locally** (Ollama + Postgres), ships as Docker Compose, and needs
-**no real identity document** — the dataset is synthetic and labelled.
+**no real identity document**, the dataset is synthetic and labelled.
 
 
 
@@ -40,8 +40,8 @@ choice follows from it:
 A second deliberate choice: **generative and deterministic components are kept
 strictly separate.** Rules that must be exact (dates, ID formats, cross-document
 matching) stay in code; the LLM is used only where genuine language understanding is
-required (extraction, grounded explanation). There is exactly **one** real agent — the
-risk/compliance step — because that is the only place where the next action genuinely
+required (extraction, grounded explanation). There is exactly **one** real agent, the
+risk/compliance step, because that is the only place where the next action genuinely
 depends on what previous steps found.
 
 ---
@@ -71,7 +71,7 @@ flowchart TD
 ```
 
 Teal path = learned/generative components (measured + grounded). Everything else is
-deterministic and unit-tested. The agent's recommendation is **advisory only** — a
+deterministic and unit-tested. The agent's recommendation is **advisory only**, a
 human makes the binding decision.
 
 ---
