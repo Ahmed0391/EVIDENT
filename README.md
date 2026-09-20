@@ -104,7 +104,7 @@ python eval/check_thresholds.py   # the CI gate, locally
 `tesseract.exe`.
 
 ```bash
-git clone https://github.com/<user>/<repo>.git && cd evident
+git clone https://github.com/Ahmed0391/EVIDENT.git && cd evident
 python -m venv .venv && source .venv/bin/activate      # Windows: .venv\Scripts\activate
 pip install -e ".[dev,ocr,demo]"
 
@@ -171,11 +171,6 @@ tests/                                         pytest (40 tests)
 
 Python · PaddleOCR/Tesseract · Ollama (Llama 3 / Qwen) · sentence-transformers ·
 PostgreSQL + pgvector · FastAPI + Pydantic · Streamlit · Docker Compose · GitHub Actions.
-
-Deliberately **not** used: Kubernetes, LangChain as a hard dependency, a dedicated
-vector DB — each would add surface area without teaching value at this scale. RAG,
-the agent, and the metrics are written by hand rather than pulled from a framework, on
-purpose.
 
 ## Roadmap
 
